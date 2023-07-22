@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>ThomasDev</title>
+          <link rel="icon"  href="images/JT Logo.png" type="image/png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    </head>
+
+<body>
+    
+         <section class="header">
+        <nav>
+
+            
+                
+
+              <div class="text-box"
+            <h1 style="font-size: 33.5px;">JAMIE THOMAS</h1>
+            <p style="font-size: 10px;">website's busted on mobile.</p>
+            <p style="font-size: 25px;">Content creator and Indie Game developer, with a passion for making great things.</p>
+            
+            <a style="font-weight: 700" href="https://www.youtube.com/channel/UCRxiU4khfojQXmjBleeKNww" target="_blank" class="hero-btn">Youtube</a>
+            <a style="font-weight: 700" href="https://www.twitch.tv/jamie_is_ded" target="_blank" class="hero-btn">Twitch</a>
+            <a style="font-weight: 700" href="https://www.instagram.com/jamie_is.dead/" target="_blank" class="hero-btn">Instagram</a>
+            
+
+            
+             </section>
+
+            <!------------About and next Sections on page---------------->
+
+            <section class="About">
+            <div id="content">
+           <style>              </style>     
+            <h1>POO</h1>
+            <p>Details and what not</p>
+
+            <div class="row">
+            <h3>About</h3>
+            <p>
+                17 year old with a passion for games, photography, music and video editing.
+            </p>
+        </div>
+
+        <div class="row">
+            <h3>What I do</h3>
+            <p>
+                Coding Video-Editing 3D-Modeling
+            </p>
+        </div>
+
+
+
+
+            </div>
+           
+
+
+        
+    
+</section>
+
+<!------>
+
+
+<section class="boondoggle">
+    <div id="scrollable-content">
+        <h1 id="enlarge-text">PROJECTS</h1>
+        
+</div>
+            
+
+    <script src="script.js"></script>
+    
+
+</section>
+
+<section class="Grimbly">
+        
+            
+
+            <div class="zomvba"> 
+
+            <p>dasda</p>
+                <img src="images/banner1.png" id="poster1">
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<section class="footer">
+        
+        <p style="opacity: 0.5;">Jamie Thomas 2023</p>
+        <div class="icons">
+            <a href="https://www.instagram.com/jamie_is.dead/" target="_blank">
+            <i class="fa fa-instagram"></i>
+                </a>
+
+                <a href="https://www.youtube.com/channel/UCRxiU4khfojQXmjBleeKNww" target="_blank">
+            <i class="fa fa-youtube"></i>
+        </a>
+
+        <a href="https://www.instagram.com/jamie_is.dead/" target="_blank">
+            <i class="fa fa-twitch"></i>
+                
+        </a>
+            </div>
+            <p></p>
+</section>
+
+    
+
+<!---------JavaScript for toggle menu (NOT EVEN USING LMAO)--------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        
+        }
+        function hideMenu(){
+            navLinks.style.right = "-122px";
+        
+        }
+
+</script>
+
+
+
+
+
+
+
+<!--Script for scroll enlargement-->
+<script>// Get the element containing the text you want to enlarge
+
+
+    const textElement = document.getElementById("enlarge-text");
+    
+    // Define the font size when the text is enlarged
+    const enlargedFontSize = 14; // You can adjust this value to your preference
+
+    const maxFontSize = 14;
+    
+    // Define the scroll position where the text should start enlarging (in pixels)
+    const scrollThreshold = 120; // You can adjust this value based on your content
+
+        // Listen for the scroll event
+        window.addEventListener("scroll", () => {
+        // Get the current scroll position
+        const scrollPosition = window.scrollY;
+        const fontSize = Math.min(enlargedFontSize, 14 + (scrollPosition - scrollThreshold) * 0.1);
+    
+
+    
+        // Check if the scroll position has passed the threshold
+        if (scrollPosition >= scrollThreshold) {
+            // Calculate the new font size based on the scroll position
+            const fontSize = enlargedFontSize + (scrollPosition - scrollThreshold) * 0.1;
+    
+            // Apply the new font size to the text element
+            textElement.style.fontSize = `${fontSize}px`;
+        } else {
+            // Reset the font size to the initial value if the scroll position is less than the threshold
+            textElement.style.fontSize = "14px";
+        }
+    });
+    </script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+

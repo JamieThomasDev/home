@@ -1,0 +1,550 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+}
+.img{
+    max-width: 100%;
+}
+
+
+
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    
+    background-image: linear-gradient(rgba(178, 175, 177, 0.25),rgba(178, 175, 177, 0.25)),url(images/youzi-lin-Kib25AWlh-I-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+
+}
+
+
+
+nav{
+    display: flex;
+    padding: 0.6% 0.6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 100px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 15px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: mintcream;
+    text-decoration: solid;
+    font-size: 15px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #badbda;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+    
+}
+
+.text-box{
+    margin-top: 21%;
+    width: 100%;
+    font-weight: 600;
+    color: aliceblue;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.text-box h1{
+   
+    font-size: 62px;
+    text-size-adjust: 60px;
+    
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 25px;
+    font-weight: 600;
+    color: aliceblue;
+    
+}
+
+.hero-btn{
+    
+    display: inline-block;
+    text-decoration: none;
+    color: azure;
+    border: 0.25px solid azure;
+    font-size: 18px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.hero-btn:hover{
+    border: 1px cadetblue;
+    background: cadetblue;
+    padding: 28px 40px;
+    transition: 1s;
+}
+
+
+
+
+.hero-btn:hover {
+    border: 1px solid cadetblue; /* Add a solid border on hover */
+    background: cadetblue;
+    transition: 1s;
+}
+
+    
+
+  h1{
+    font: 600;
+  }
+
+
+  
+
+
+
+
+
+
+
+
+
+  @media (max-width: 900px) {
+    
+    .text-box h1{
+        
+        font-size: 10px;
+        font-size: 5vw;
+    }
+    .text-box p{
+        font-size: 15px;
+        font-size: 5vw;
+    }
+
+    .boondoggle{
+
+
+        font-size: 4px;
+    padding: 16px 20px;
+    display: inline-block;
+    margin: 0%;
+    display: block;
+
+       
+
+    }
+    
+
+    
+    
+    h1{
+    display: block;
+    font-size: 4vh;
+    font-weight: 500;
+    font: bold;
+    text-transform: 0;
+    padding: 12px 8px;
+    text-align: left;
+    }
+
+    h3{
+
+    margin: 8px ;
+    text-align: center;
+    padding: 10px 12px;
+        display: block;
+        font-size: 20px;
+        font: small;
+        font: 400;
+        font-weight: 600;
+        
+    }
+
+    /*----scrol-enlargment----*/
+
+    #scrollable-content{
+        max-width: 100%;
+        max-height: 250vh;
+        overflow: hidden;
+    
+    }
+    
+    #enlarge-text{
+        font-size: 20px;
+        white-space: normal;
+        overflow: hidden;
+        word-break: break-word;
+        word-wrap: break-word;
+    }
+
+
+h1{
+    padding: 0%;
+    left: -10;
+}
+.Grimbly{
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.poster1{
+
+    max-width: 25px;
+    max-height: 40vh;
+    size: 12px;
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+#poster1{
+    width: 500px;
+    height: 40vh;
+    margin-left: 10px;
+    padding: 12 14;
+    display: block;
+    
+
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+#poster1 img{
+
+    width: 100%;
+
+
+}
+
+
+
+p{
+    font: 10px;
+}
+    
+
+.details{
+    padding: 0;
+}
+ }
+ h3{
+    padding: 0;
+ }
+
+
+
+.Grimbly{
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+@media (max-width: 600px) {
+
+    #scrollable-content{
+        max-width: 250%;
+        max-height: 300vh;
+        overflow: hidden;
+
+    
+    }
+    
+    #enlarge-text{
+        font-size: 13px;
+        
+   
+        overflow: hidden;
+
+    }
+    
+  }
+/*----scrol-enlargment----*/
+#scrollable-content{
+    max-width: 100%;
+    max-height: 250vh;
+    overflow: hidden;
+    padding: 10px;
+    top: 10px;
+}
+
+#enlarge-text{
+    font-size: 20px;
+    overflow: hidden;
+
+}
+
+
+
+    
+ 
+
+
+
+
+/*-------about-------*/
+
+
+
+
+
+
+.About{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 120px;
+    padding: 0 15;
+
+
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    font-size: larger;
+}
+h3{
+    font-size: 22px;
+}
+p{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 10px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 1.6;
+}
+
+.row{
+    margin: 9%;
+    display: inline-block;
+    justify-content: space-around ;
+    padding: 12 15;
+
+}
+
+
+
+
+.boondoggle{
+
+    padding: 20px 40px;
+    display: inline-block;
+    margin: 14%;
+    display: block;
+
+
+   
+}
+h1{
+    color: #2c2c2c;
+    display: block;
+    font-size: 18px;
+    font-style: inherit;
+    font-weight: 700;
+    font: bold;
+ 
+    padding: 16px 12px;
+    text-align: center;
+    
+    
+    
+}
+
+h3{
+
+    
+        text-align: justify;
+        
+       
+        display: inline-block;
+        justify-content: space-between;
+        font-size: 20px;
+        font: small;
+        font: 400;
+        font-weight: 600;
+        
+}
+
+.h2{
+
+
+    margin: 2%;
+    padding: 15px 20px;
+}
+
+
+
+.zomvba{
+
+    
+    display: inline-block;
+    justify-content: space-between ;
+    
+}
+
+p{
+    font-size: 21px;
+    font-weight: 700;
+    font-style: oblique;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+.Grimbly{
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+h2{
+    padding: 12 12;
+    left: 3px;
+}
+p{
+    justify-content: center;
+}
+
+.poster1{
+
+    max-width: 25px;
+    max-height: 40vh;
+    size: 12px;
+    flex-basis: 30%;
+
+    position: relative;
+    overflow: hidden;
+}
+
+#poster1{
+    width: 500px;
+    height: 50vh;
+    margin-left: 2%;
+    padding: 12 14;
+    display: block;
+    
+
+    flex-basis: 30%;
+    border-radius: 10px;
+    
+    position: relative;
+    overflow: hidden;
+}
+
+
+#poster1 img{
+
+    width: 100%;
+
+
+}
+
+
+
+
+
+
+
+
+/*----scrol-enlargment----*/
+
+#scrollable-content{
+    max-width: 3000%;
+    max-height: 200vh;
+    overflow: hidden;
+    
+}
+
+#enlarge-text{
+    font-size: 18px;
+    overflow: hidden;
+    
+    
+    
+}
+
+
+  .footer{
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 30px 40px;
+  }
+
+  .footer{
+    display: block;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .icons{
+    size: 10px;
+  }
+  .icons .fa{
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+  }
+  .icons .fa{
+    color: #2c2c2c;
+  }
